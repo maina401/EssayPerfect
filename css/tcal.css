@@ -1,0 +1,90 @@
+/* input box in default state */ 
+.tcalInput {
+	cursor: pointer;
+}
+
+/* additional properties for input boxe in activated state, above still applies unless in conflict */
+.tcalActive {
+	background-image: url('img/no_cal.html');
+}
+/* container of calendar's pop-up */
+#tcal {
+	position: absolute;
+	visibility: hidden;
+	z-index: 100;
+	width: 253px;
+  height: auto;
+  box-shadow: 0 1px 7px 1px rgba(0, 0, 0, 0.05), 0 3px 5px 1px rgba(0, 0, 0, 0.11);
+  border-radius: 0 0 3px 3px;
+  background-color: #ffffff;
+
+}
+
+/* table containing navigation and current month */
+#tcalControls {
+	border-collapse: collapse;
+	border: 0;
+	width: 100%;
+  height: 43px;
+  border-radius: 3px 3px 0 0;
+  background-color: #66cc86;
+}
+#tcalControls td {
+	border-collapse: collapse;
+	border: 0;
+	padding: 0;
+	width: 16px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#tcalControls th {
+	border-collapse: collapse;
+	color: #ffffff;
+  font-family: 'latoregular';
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+	text-align: center;	
+	white-space: nowrap;
+}
+#tcalPrevYear { visibility: hidden; }
+#tcalPrevMonth { background-image: url('../images/date_prev.png'); }
+#tcalNextMonth { background-image: url('../images/date_next.png'); }
+#tcalNextYear { visibility: hidden; }
+
+/* table containing week days header and calendar grid */
+#tcalGrid {
+	border-collapse: collapse;
+	width: calc(100% - 40px);
+  padding: 20px;
+  margin: 0 auto
+}
+#tcalGrid th {
+	border: none;
+	border-collapse: collapse;
+	padding: 3px 0;
+	text-align: center;
+  color: #3a5273;
+  font-family: 'latobold';
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+  
+}
+#tcalGrid td {
+	border: 0;
+	border-collapse: collapse;
+	padding: 2px 0;
+	text-align: center;
+  color: #555d66;
+  font-size: 12px;
+  line-height: 24px;
+	width: 14%;
+	cursor: pointer;
+}		
+#tcalGrid td.tcalOtherMonth { color: #a9bacc; }
+#tcalGrid td.tcalWeekend {  }
+#tcalGrid td.tcalToday { border: 1px solid #66cc86; border-radius: 3px; width: 21px; height: 21px; }
+#tcalGrid td.tcalSelected { width: 23px; height: 23px; border-radius: 3px; background-color: #66cc86; border: none; color: #fff;}		

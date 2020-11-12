@@ -1,0 +1,1829 @@
+Feb 9 19:37:50 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'erLhAbstractModelimg' not found
+    [string:Error:private] => Error: Class 'erLhAbstractModelimg' not found in D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php:2
+Stack trace:
+#0 D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php(96): include()
+#1 D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#2 D:\Websites\EssayWriting\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#3 {main}
+    [code:protected] => 0
+    [file:protected] => D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php
+    [line:protected] => 2
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 96
+                    [function] => include
+                )
+
+            [1] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Error: Class 'erLhAbstractModelimg' not found in D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php on line <i>2</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>405208</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0024</td><td bgcolor='#eeeeec' align='right'>455752</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0076</td><td bgcolor='#eeeeec' align='right'>573240</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0104</td><td bgcolor='#eeeeec' align='right'>602480</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php'</font> )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>96</td></tr>
+
+)
+Feb 9 19:37:51 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'erLhAbstractModelimg' not found
+    [string:Error:private] => Error: Class 'erLhAbstractModelimg' not found in D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php:2
+Stack trace:
+#0 D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php(96): include()
+#1 D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#2 D:\Websites\EssayWriting\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#3 {main}
+    [code:protected] => 0
+    [file:protected] => D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php
+    [line:protected] => 2
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 96
+                    [function] => include
+                )
+
+            [1] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Error: Class 'erLhAbstractModelimg' not found in D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php on line <i>2</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0004</td><td bgcolor='#eeeeec' align='right'>405208</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0046</td><td bgcolor='#eeeeec' align='right'>455752</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.3279</td><td bgcolor='#eeeeec' align='right'>573240</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.3328</td><td bgcolor='#eeeeec' align='right'>602480</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php'</font> )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>96</td></tr>
+
+)
+Feb 9 19:37:51 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'erLhAbstractModelimg' not found
+    [string:Error:private] => Error: Class 'erLhAbstractModelimg' not found in D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php:2
+Stack trace:
+#0 D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php(96): include()
+#1 D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#2 D:\Websites\EssayWriting\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#3 {main}
+    [code:protected] => 0
+    [file:protected] => D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php
+    [line:protected] => 2
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 96
+                    [function] => include
+                )
+
+            [1] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Error: Class 'erLhAbstractModelimg' not found in D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php on line <i>2</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>405208</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0024</td><td bgcolor='#eeeeec' align='right'>455752</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0688</td><td bgcolor='#eeeeec' align='right'>562264</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0734</td><td bgcolor='#eeeeec' align='right'>568880</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php'</font> )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>96</td></tr>
+
+)
+Feb 9 19:37:51 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'erLhAbstractModelimg' not found
+    [string:Error:private] => Error: Class 'erLhAbstractModelimg' not found in D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php:2
+Stack trace:
+#0 D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php(96): include()
+#1 D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#2 D:\Websites\EssayWriting\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#3 {main}
+    [code:protected] => 0
+    [file:protected] => D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php
+    [line:protected] => 2
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 96
+                    [function] => include
+                )
+
+            [1] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => D:\Websites\EssayWriting\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Error: Class 'erLhAbstractModelimg' not found in D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php on line <i>2</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>405208</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0021</td><td bgcolor='#eeeeec' align='right'>455752</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0841</td><td bgcolor='#eeeeec' align='right'>561464</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0853</td><td bgcolor='#eeeeec' align='right'>567312</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'D:\Websites\EssayWriting\getessay.net\chat\cache\compiledtemplates\8f895a94ae9e1cbb060be731368124f4.php'</font> )</td><td title='D:\Websites\EssayWriting\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>96</td></tr>
+
+)
+Feb 15 09:16:44 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1049] Unknown database 'essaywriters'
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php:65
+Stack trace:
+#0 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php(92): ezcDbInstance::get()
+#3 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
+#4 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\EventLog\src\log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
+#5 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php(64): ezcLog::getInstance()
+#6 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(145): erLhcoreClassLog::write('Exception Objec...')
+#7 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#8 C:\Users\LINUS\Desktop\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #127
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\EventLog\src\log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitLog
+                            [1] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #127
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 145
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1049] Unknown database 'essaywriters'
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php:65
+Stack trace:
+#0 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhchat\lhchat.php(736): ezcDbInstance::get()
+#3 C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php(1): erLhcoreClassChat::isOnline(Array, false, Array)
+#4 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php(558): include('C:\\Users\\LINUS\\...')
+#5 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php(531): erLhcoreClassTemplate->fetchExecute('cache/compiledt...')
+#6 C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php(2): erLhcoreClassTemplate->fetch()
+#7 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(96): include('C:\\Users\\LINUS\\...')
+#8 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#9 C:\Users\LINUS\Desktop\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#10 {main}
+    [code:protected] => 0
+    [file:protected] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhchat\lhchat.php
+                    [line] => 736
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php
+                    [line] => 1
+                    [function] => isOnline
+                    [class] => erLhcoreClassChat
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [1] => 
+                            [2] => Array
+                                (
+                                    [ignore_user_status] => 0
+                                    [online_timeout] => 0
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php
+                    [line] => 558
+                    [args] => Array
+                        (
+                            [0] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php
+                        )
+
+                    [function] => include
+                )
+
+            [5] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php
+                    [line] => 531
+                    [function] => fetchExecute
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => cache/compiledtemplates/f610966e8da97aefee2f9caffe0ca422.php
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php
+                    [line] => 2
+                    [function] => fetch
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 96
+                    [args] => Array
+                        (
+                            [0] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php
+                        )
+
+                    [function] => include
+                )
+
+            [8] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php on line <i>65</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0954</td><td bgcolor='#eeeeec' align='right'>406192</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.9270</td><td bgcolor='#eeeeec' align='right'>458768</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>1.5169</td><td bgcolor='#eeeeec' align='right'>597608</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>2.1596</td><td bgcolor='#eeeeec' align='right'>760352</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php'</font> )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>96</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>2.2227</td><td bgcolor='#eeeeec' align='right'>764544</td><td bgcolor='#eeeeec'>erLhcoreClassTemplate->fetch(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php' bgcolor='#eeeeec'>...\637f2865c60a02ad97f85055e1b7ca2e.php<b>:</b>2</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>3.5664</td><td bgcolor='#eeeeec' align='right'>989400</td><td bgcolor='#eeeeec'>erLhcoreClassTemplate->fetchExecute(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php' bgcolor='#eeeeec'>...\tpl.php<b>:</b>531</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>3.5755</td><td bgcolor='#eeeeec' align='right'>1461240</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php'</font> )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php' bgcolor='#eeeeec'>...\tpl.php<b>:</b>558</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>3.5757</td><td bgcolor='#eeeeec' align='right'>1471400</td><td bgcolor='#eeeeec'>erLhcoreClassChat::isOnline(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php' bgcolor='#eeeeec'>...\f610966e8da97aefee2f9caffe0ca422.php<b>:</b>1</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>3.5757</td><td bgcolor='#eeeeec' align='right'>1471400</td><td bgcolor='#eeeeec'>ezcDbInstance::get(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhchat\lhchat.php' bgcolor='#eeeeec'>...\lhchat.php<b>:</b>736</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>3.5757</td><td bgcolor='#eeeeec' align='right'>1471400</td><td bgcolor='#eeeeec'>ezcBaseInit::fetchConfig(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php' bgcolor='#eeeeec'>...\instance.php<b>:</b>96</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>3.5757</td><td bgcolor='#eeeeec' align='right'>1471400</td><td bgcolor='#eeeeec'>erLhcoreClassLazyDatabaseConfiguration::configureObject(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php' bgcolor='#eeeeec'>...\init.php<b>:</b>120</td></tr>
+
+)
+
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php on line <i>65</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0954</td><td bgcolor='#eeeeec' align='right'>406192</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.9270</td><td bgcolor='#eeeeec' align='right'>458768</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>1.5169</td><td bgcolor='#eeeeec' align='right'>597608</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>4.4520</td><td bgcolor='#eeeeec' align='right'>910624</td><td bgcolor='#eeeeec'>erLhcoreClassLog::write(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>145</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>4.5102</td><td bgcolor='#eeeeec' align='right'>916304</td><td bgcolor='#eeeeec'>ezcLog::getInstance(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php' bgcolor='#eeeeec'>...\lhlog.php<b>:</b>64</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>4.5201</td><td bgcolor='#eeeeec' align='right'>919104</td><td bgcolor='#eeeeec'>ezcBaseInit::fetchConfig(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\EventLog\src\log.php' bgcolor='#eeeeec'>...\log.php<b>:</b>243</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>4.5201</td><td bgcolor='#eeeeec' align='right'>919104</td><td bgcolor='#eeeeec'>erLhcoreClassLog::configureObject(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php' bgcolor='#eeeeec'>...\init.php<b>:</b>120</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>4.5492</td><td bgcolor='#eeeeec' align='right'>926984</td><td bgcolor='#eeeeec'>ezcDbInstance::get(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php' bgcolor='#eeeeec'>...\lhlog.php<b>:</b>92</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>4.5492</td><td bgcolor='#eeeeec' align='right'>926984</td><td bgcolor='#eeeeec'>ezcBaseInit::fetchConfig(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php' bgcolor='#eeeeec'>...\instance.php<b>:</b>96</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>4.5492</td><td bgcolor='#eeeeec' align='right'>926984</td><td bgcolor='#eeeeec'>erLhcoreClassLazyDatabaseConfiguration::configureObject(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php' bgcolor='#eeeeec'>...\init.php<b>:</b>120</td></tr>
+
+)
+
+Feb 15 09:16:56 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1049] Unknown database 'essaywriters'
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php:65
+Stack trace:
+#0 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php(92): ezcDbInstance::get()
+#3 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
+#4 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\EventLog\src\log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
+#5 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php(64): ezcLog::getInstance()
+#6 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(145): erLhcoreClassLog::write('Exception Objec...')
+#7 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#8 C:\Users\LINUS\Desktop\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #77
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\EventLog\src\log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitLog
+                            [1] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #77
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 145
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1049] Unknown database 'essaywriters'
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php:65
+Stack trace:
+#0 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhchat\lhchat.php(736): ezcDbInstance::get()
+#3 C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php(1): erLhcoreClassChat::isOnline(Array, false, Array)
+#4 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php(558): include('C:\\Users\\LINUS\\...')
+#5 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php(531): erLhcoreClassTemplate->fetchExecute('cache/compiledt...')
+#6 C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php(2): erLhcoreClassTemplate->fetch()
+#7 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(96): include('C:\\Users\\LINUS\\...')
+#8 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#9 C:\Users\LINUS\Desktop\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#10 {main}
+    [code:protected] => 0
+    [file:protected] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhchat\lhchat.php
+                    [line] => 736
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php
+                    [line] => 1
+                    [function] => isOnline
+                    [class] => erLhcoreClassChat
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [1] => 
+                            [2] => Array
+                                (
+                                    [ignore_user_status] => 0
+                                    [online_timeout] => 0
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php
+                    [line] => 558
+                    [args] => Array
+                        (
+                            [0] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php
+                        )
+
+                    [function] => include
+                )
+
+            [5] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php
+                    [line] => 531
+                    [function] => fetchExecute
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => cache/compiledtemplates/f610966e8da97aefee2f9caffe0ca422.php
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php
+                    [line] => 2
+                    [function] => fetch
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 96
+                    [args] => Array
+                        (
+                            [0] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php
+                        )
+
+                    [function] => include
+                )
+
+            [8] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php on line <i>65</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0007</td><td bgcolor='#eeeeec' align='right'>407072</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0102</td><td bgcolor='#eeeeec' align='right'>457952</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0237</td><td bgcolor='#eeeeec' align='right'>530328</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.1117</td><td bgcolor='#eeeeec' align='right'>690240</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php'</font> )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>96</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.1195</td><td bgcolor='#eeeeec' align='right'>695496</td><td bgcolor='#eeeeec'>erLhcoreClassTemplate->fetch(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php' bgcolor='#eeeeec'>...\637f2865c60a02ad97f85055e1b7ca2e.php<b>:</b>2</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.4736</td><td bgcolor='#eeeeec' align='right'>883536</td><td bgcolor='#eeeeec'>erLhcoreClassTemplate->fetchExecute(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php' bgcolor='#eeeeec'>...\tpl.php<b>:</b>531</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.4847</td><td bgcolor='#eeeeec' align='right'>1355928</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php'</font> )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php' bgcolor='#eeeeec'>...\tpl.php<b>:</b>558</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.4856</td><td bgcolor='#eeeeec' align='right'>1366088</td><td bgcolor='#eeeeec'>erLhcoreClassChat::isOnline(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php' bgcolor='#eeeeec'>...\f610966e8da97aefee2f9caffe0ca422.php<b>:</b>1</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.4856</td><td bgcolor='#eeeeec' align='right'>1366088</td><td bgcolor='#eeeeec'>ezcDbInstance::get(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhchat\lhchat.php' bgcolor='#eeeeec'>...\lhchat.php<b>:</b>736</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.4856</td><td bgcolor='#eeeeec' align='right'>1366088</td><td bgcolor='#eeeeec'>ezcBaseInit::fetchConfig(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php' bgcolor='#eeeeec'>...\instance.php<b>:</b>96</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.4856</td><td bgcolor='#eeeeec' align='right'>1366088</td><td bgcolor='#eeeeec'>erLhcoreClassLazyDatabaseConfiguration::configureObject(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php' bgcolor='#eeeeec'>...\init.php<b>:</b>120</td></tr>
+
+)
+
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php on line <i>65</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0007</td><td bgcolor='#eeeeec' align='right'>407072</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0102</td><td bgcolor='#eeeeec' align='right'>457952</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0237</td><td bgcolor='#eeeeec' align='right'>530328</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.6017</td><td bgcolor='#eeeeec' align='right'>746168</td><td bgcolor='#eeeeec'>erLhcoreClassLog::write(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>145</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.6044</td><td bgcolor='#eeeeec' align='right'>751624</td><td bgcolor='#eeeeec'>ezcLog::getInstance(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php' bgcolor='#eeeeec'>...\lhlog.php<b>:</b>64</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.6062</td><td bgcolor='#eeeeec' align='right'>754072</td><td bgcolor='#eeeeec'>ezcBaseInit::fetchConfig(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\EventLog\src\log.php' bgcolor='#eeeeec'>...\log.php<b>:</b>243</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.6062</td><td bgcolor='#eeeeec' align='right'>754072</td><td bgcolor='#eeeeec'>erLhcoreClassLog::configureObject(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php' bgcolor='#eeeeec'>...\init.php<b>:</b>120</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.6107</td><td bgcolor='#eeeeec' align='right'>761312</td><td bgcolor='#eeeeec'>ezcDbInstance::get(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php' bgcolor='#eeeeec'>...\lhlog.php<b>:</b>92</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.6107</td><td bgcolor='#eeeeec' align='right'>761312</td><td bgcolor='#eeeeec'>ezcBaseInit::fetchConfig(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php' bgcolor='#eeeeec'>...\instance.php<b>:</b>96</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.6107</td><td bgcolor='#eeeeec' align='right'>761312</td><td bgcolor='#eeeeec'>erLhcoreClassLazyDatabaseConfiguration::configureObject(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php' bgcolor='#eeeeec'>...\init.php<b>:</b>120</td></tr>
+
+)
+
+Feb 15 09:18:46 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1049] Unknown database 'essaywriters'
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php:65
+Stack trace:
+#0 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php(92): ezcDbInstance::get()
+#3 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
+#4 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\EventLog\src\log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
+#5 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php(64): ezcLog::getInstance()
+#6 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(145): erLhcoreClassLog::write('Exception Objec...')
+#7 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#8 C:\Users\LINUS\Desktop\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #77
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\EventLog\src\log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitLog
+                            [1] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #77
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 145
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1049] Unknown database 'essaywriters'
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php:65
+Stack trace:
+#0 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhchat\lhchat.php(736): ezcDbInstance::get()
+#3 C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php(1): erLhcoreClassChat::isOnline(Array, false, Array)
+#4 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php(558): include('C:\\Users\\LINUS\\...')
+#5 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php(531): erLhcoreClassTemplate->fetchExecute('cache/compiledt...')
+#6 C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php(2): erLhcoreClassTemplate->fetch()
+#7 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(96): include('C:\\Users\\LINUS\\...')
+#8 C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php(542): erLhcoreClassModule::runModule()
+#9 C:\Users\LINUS\Desktop\getessay.net\chat\index.php(44): erLhcoreClassModule::moduleInit()
+#10 {main}
+    [code:protected] => 0
+    [file:protected] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhchat\lhchat.php
+                    [line] => 736
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php
+                    [line] => 1
+                    [function] => isOnline
+                    [class] => erLhcoreClassChat
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [1] => 
+                            [2] => Array
+                                (
+                                    [ignore_user_status] => 0
+                                    [online_timeout] => 0
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php
+                    [line] => 558
+                    [args] => Array
+                        (
+                            [0] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php
+                        )
+
+                    [function] => include
+                )
+
+            [5] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php
+                    [line] => 531
+                    [function] => fetchExecute
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => cache/compiledtemplates/f610966e8da97aefee2f9caffe0ca422.php
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php
+                    [line] => 2
+                    [function] => fetch
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 96
+                    [args] => Array
+                        (
+                            [0] => C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php
+                        )
+
+                    [function] => include
+                )
+
+            [8] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php on line <i>65</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0007</td><td bgcolor='#eeeeec' align='right'>405920</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0128</td><td bgcolor='#eeeeec' align='right'>456624</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0290</td><td bgcolor='#eeeeec' align='right'>528840</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.3003</td><td bgcolor='#eeeeec' align='right'>688752</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php'</font> )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>96</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.3463</td><td bgcolor='#eeeeec' align='right'>693984</td><td bgcolor='#eeeeec'>erLhcoreClassTemplate->fetch(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\637f2865c60a02ad97f85055e1b7ca2e.php' bgcolor='#eeeeec'>...\637f2865c60a02ad97f85055e1b7ca2e.php<b>:</b>2</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.8647</td><td bgcolor='#eeeeec' align='right'>882024</td><td bgcolor='#eeeeec'>erLhcoreClassTemplate->fetchExecute(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php' bgcolor='#eeeeec'>...\tpl.php<b>:</b>531</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.8748</td><td bgcolor='#eeeeec' align='right'>1354416</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php'</font> )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhtpl\tpl.php' bgcolor='#eeeeec'>...\tpl.php<b>:</b>558</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.8750</td><td bgcolor='#eeeeec' align='right'>1364576</td><td bgcolor='#eeeeec'>erLhcoreClassChat::isOnline(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\cache\compiledtemplates\f610966e8da97aefee2f9caffe0ca422.php' bgcolor='#eeeeec'>...\f610966e8da97aefee2f9caffe0ca422.php<b>:</b>1</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.8750</td><td bgcolor='#eeeeec' align='right'>1364576</td><td bgcolor='#eeeeec'>ezcDbInstance::get(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhchat\lhchat.php' bgcolor='#eeeeec'>...\lhchat.php<b>:</b>736</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.8750</td><td bgcolor='#eeeeec' align='right'>1364576</td><td bgcolor='#eeeeec'>ezcBaseInit::fetchConfig(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php' bgcolor='#eeeeec'>...\instance.php<b>:</b>96</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.8750</td><td bgcolor='#eeeeec' align='right'>1364576</td><td bgcolor='#eeeeec'>erLhcoreClassLazyDatabaseConfiguration::configureObject(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php' bgcolor='#eeeeec'>...\init.php<b>:</b>120</td></tr>
+
+)
+
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php
+                    [line] => 542
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [file] => C:\Users\LINUS\Desktop\getessay.net\chat\index.php
+                    [line] => 44
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Exception: SQLSTATE[HY000] [1049] Unknown database 'essaywriters' in C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhdb.php on line <i>65</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0007</td><td bgcolor='#eeeeec' align='right'>405920</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0128</td><td bgcolor='#eeeeec' align='right'>456624</td><td bgcolor='#eeeeec'>erLhcoreClassModule::moduleInit(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0290</td><td bgcolor='#eeeeec' align='right'>528840</td><td bgcolor='#eeeeec'>erLhcoreClassModule::runModule(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>542</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>1.0073</td><td bgcolor='#eeeeec' align='right'>744656</td><td bgcolor='#eeeeec'>erLhcoreClassLog::write(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhmodule.php' bgcolor='#eeeeec'>...\lhmodule.php<b>:</b>145</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>1.0092</td><td bgcolor='#eeeeec' align='right'>750112</td><td bgcolor='#eeeeec'>ezcLog::getInstance(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php' bgcolor='#eeeeec'>...\lhlog.php<b>:</b>64</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>1.0110</td><td bgcolor='#eeeeec' align='right'>752560</td><td bgcolor='#eeeeec'>ezcBaseInit::fetchConfig(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\EventLog\src\log.php' bgcolor='#eeeeec'>...\log.php<b>:</b>243</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>1.0110</td><td bgcolor='#eeeeec' align='right'>752560</td><td bgcolor='#eeeeec'>erLhcoreClassLog::configureObject(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php' bgcolor='#eeeeec'>...\init.php<b>:</b>120</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>1.0146</td><td bgcolor='#eeeeec' align='right'>759800</td><td bgcolor='#eeeeec'>ezcDbInstance::get(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\lib\core\lhcore\lhlog.php' bgcolor='#eeeeec'>...\lhlog.php<b>:</b>92</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>1.0146</td><td bgcolor='#eeeeec' align='right'>759800</td><td bgcolor='#eeeeec'>ezcBaseInit::fetchConfig(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Database\src\instance.php' bgcolor='#eeeeec'>...\instance.php<b>:</b>96</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>1.0146</td><td bgcolor='#eeeeec' align='right'>759800</td><td bgcolor='#eeeeec'>erLhcoreClassLazyDatabaseConfiguration::configureObject(  )</td><td title='C:\Users\LINUS\Desktop\getessay.net\chat\ezcomponents\Base\src\init.php' bgcolor='#eeeeec'>...\init.php<b>:</b>120</td></tr>
+
+)
+

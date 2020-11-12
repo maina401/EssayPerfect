@@ -1,0 +1,76 @@
+.cp-banner {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 10px 12px;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 9999998;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+.cp-banner-close {
+	cursor: pointer;
+	border: none;
+	background: #66cc86;
+	padding: 4px 15px;
+	line-height: 0;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: center;
+	margin-left: 20px;
+	line-height: normal;
+	border: 1px solid transparent;
+	transition: 0.3s;
+}
+.cp-banner-close:hover {
+    background: transparent;
+    color: #66cc86;
+    border: 1px solid #66cc86;
+    transition: 0.3s all;
+}
+.cp-banner-content {
+	color: #555d66;
+	line-height: 24px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'montserratregular';
+}
+.cp-banner-content a{
+  color:#66cc86!important;
+  text-decoration: underline!important;
+  border: none;
+}
+
+.cp-banner-content a:hover{
+  color:#66cc86!important;
+  text-decoration: none!important;
+}
+@media (max-width: 1024px){
+    .cp-banner {
+        z-index: 9999998;
+    }
+}
+@media (max-width:767px) {
+  .cp-banner{
+    width: 100%;
+    padding: 20px;
+  }
+  .cp-banner-content{
+      text-align: left;
+      line-height: 20px;
+  }
+  .cp-banner-close {
+        display: block;
+        margin: 7px 0 0;
+  }
+}

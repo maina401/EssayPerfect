@@ -4,8 +4,11 @@ getStartingBlock('Writer Registration |'.$_SERVER['SERVER_NAME'],'Start Earning 
 
 $categories=getCategories();
     $subjects=getSubjects();
-
-getRegForm($subjects,$categories);
+    if($_SESSION['universities']==null){
+      $_SESSION['universities']=getUiversitites();
+    }
+$universities=$_SESSION['universities'];
+getRegForm($subjects,$categories,$universities);
 ?>
 
 <?php

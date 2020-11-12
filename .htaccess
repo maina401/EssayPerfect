@@ -1,0 +1,20 @@
+ErrorDocument 400 /errors/400.html
+ErrorDocument 401 /errors/401.html
+ErrorDocument 403 /errors/403.html
+ErrorDocument 404 /errors/404.php
+ErrorDocument 500 /errors/500.html
+DirectoryIndex index.php dashboard.php unauthorized.php index.html
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+Options -Indexes
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+<Files .htaccess>
+    order allow,deny
+    deny from all
+</Files>
+Options All -Indexes
+
