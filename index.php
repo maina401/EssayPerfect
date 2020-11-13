@@ -1,7 +1,7 @@
 <?php
 include "functions/newtemplate.php";
 getStartingBlock('Start Earning Today! | ' . $_SERVER['SERVER_NAME'], 'Register today and start earning from yout writing! How does it work? Pass a simple grammar test and BOOM! You are Hired','writer academic freelance writing register','writer academic freelance writing register');?>
-<h2 class="h1 display-3 pt-50 wow fadeInRight delays-4s slower">Start Earning <img id="applyNow"
+<h2 class="h1 display-3 wow fadeInRight delays-4s slower">Start Earning <img id="applyNow"
                                                                                    href="/accounts/new/"
                                                                                    class="animated zoomIn delay-5s"
                                                                                    src="images/apply_now.png"

@@ -222,24 +222,29 @@ function getUserById($table,$id){
     }else{
         return false;
     }
-    function isVerified($id){
-        $id=mysqli_real_escape_string($id);
-        $db=getConnection();
 
-      $resultse=  $db->query("SELECT v.verified_at as verified, w.lname as lastname from writers as w inner join verifier v on w.writer_id = v.writer_id where w.writer_id={$id}");
-if(!$resultse==null){
-    while($reow=$resultse->fetch_assoc()){
-        if (!$reow['verified']==null) {
-
-            return true;
-        }
-        else{return  false;}
-    }
-
-}else{
-        return false;}
-    }
 	
+}
+function isVerified($id){
+    $id=mysqli_real_escape_string($id);
+    $db=getConnection();
+$query="SELECT v.verified_at as verified, w.lname as lastname 
+from writers as w inner join verifier v on w.writer_id = v.writer_id 
+where w.writer_id={$id}";
+
+    $resultse= mysqli_query($db,$query);
+
+
+        while($row=mysqli_fetch_assoc($resultse)){
+            if ($row['verified']!='null') {
+                return true;
+            }
+            else{
+                return  false;
+            }
+        }
+        return false;
+
 }
 
 // escape string
@@ -393,4 +398,38 @@ function isAdmin()
 	}else{
 return false;
 }
+}
+function uploadMultipleFiles($inputID, $writer_id, $allowed_extension, $uploadDir){
+    $total = count($_FILES[$inputID]['name']);
+
+// Loop through each file
+    for( $i=0 ; $i < $total ; $i++ ) {
+
+        //Get the temp file path
+        $tmpFilePath = $_FILES['upload']['tmp_name'][$i];
+
+        //Make sure we have a file path
+        if ($tmpFilePath != ""){
+            //Setup our new file path
+            $fileName = $_FILES[$inputID]['name'][$i];
+            $fileTmpName = $_FILES[$inputID]['tmp_name'][$i];
+
+
+            $tmp = explode('.', $fileName);
+            $fileExtension = strtolower(end($tmp));
+            $newfileName = $writer_id . '.' . $fileExtension;
+            $uploadDirectory = $uploadDir;
+            $uploadPath = $_SERVER['DOCUMENT_ROOT'] . $uploadDirectory . basename($newfileName);
+            $didUpload = move_uploaded_file($fileTmpName, $uploadPath);
+            if ($didUpload) {
+
+                return $uploadPath;
+
+            } else {
+                echo 'Not uploaded!!' . $_FILES[$inputID]['error'];
+                die(3);
+            }
+
+        }
+    }
 }

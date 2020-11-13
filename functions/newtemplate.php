@@ -1,6 +1,15 @@
 <?php
 include 'template.php';
-
+function retry_verification(){
+    getStartingBlock('Verify Your Email','Verify your email to access our system','Email Verification','email, verify,');
+    echo '<<div class="form-group">
+      <label for="">Enter your email address</label>
+      <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+      <small id="emailHelpId" class="form-text text-muted">Help text</small>
+    </div>'
+    ;
+    getEndingBlock();
+}
 
 function getStartingBlock($title, $description, $h1, $keywords)
 {
@@ -151,11 +160,12 @@ function getStartingBlock($title, $description, $h1, $keywords)
 
 <hr>';
     if(isset($_COOKIE['ckid'])){
-        global $db;
-        $id=mysqli_real_escape_string($_COOKIE['ckid']);
-        if(getUserById('writers',$id).isVerified($id)){
-echo '<div class="alert alert-warning" role="alert">
+        $id=e($_COOKIE['ckid']);
+        if(!isVerified($id)){
+echo '<<div class="container pt-5" style="position: sticky; top: 20px">
+	<div class="alert alert-warning alert-dismissible offset-8 align-content-between" role="alert" >
     <strong>You need to verify your email. Check your inbox or Spam folder</strong>
+</div>
 </div>';
         }
     }
@@ -185,7 +195,7 @@ function getEndingBlock()
         new WOW().init();
      $(\'#dob\').pickadate();
      $(\'.mdb-select\').materialSelect();
-        async function changeClass() {
+        function changeClass() {
             document.getElementById("applyNow").classList.add(\'zoomIn\');
             document.getElementById("applyNow").classList.add(\'slower\');
             await
@@ -258,6 +268,7 @@ var iti = window.intlTelInput(input, {
       var countryCode = (resp && resp.country) ? resp.country : "";
     console.log(resp.ip);
    $("#ip_address").val(resp.ip);
+   $("#nationality").val(resp.region+" "+resp.city+", "+resp.country+"");
       callback(countryCode);
     });
   },
@@ -528,7 +539,7 @@ padding-top: 50px;
             <div class="file-field big">
     <a class="btn-floating btn-lg amber darken-2 mt-0 float-left">
       <i class="fas fa-cloud-upload-alt" aria-hidden="true"></i>
-      <input type="file" multiple id="degree_upload" name="degree_upload">
+      <input type="file" multiple id="degree_upload" name="degree_upload[]">
     </a>
     <div class="file-path-wrapper">
       <input class="file-path validate pr-5" type="text" placeholder="Upload one or more degrees" required="required">
@@ -546,7 +557,7 @@ padding-top: 50px;
             <div class="file-field big">
     <a class="btn-floating btn-lg amber darken-2 mt-0 float-left">
       <i class="fas fa-cloud-upload-alt" aria-hidden="true"></i>
-      <input type="file" multiple id="id_upload" name="id_upload" >
+      <input type="file" multiple id="id_upload" name="id_upload[]" >
     </a>
     <div class="file-path-wrapper">
       <input class="file-path validate pr-5 form-cotrol" type="text" placeholder="Upload back and front of your ID" required="required">
@@ -569,7 +580,7 @@ padding-top: 50px;
     <div class="d-flex justify-content-center">
       <div class="btn btn-mdb-color btn-rounded float-left">
         <span>Upload Profile Photo</span>
-        <input type="file" id="profile_photo_upload" name="profile_photo_upload" class="form-control" required="required">
+        <input type="file" id="profile_photo_upload" name="profile_photo_upload[]" class="form-control" required="required">
       </div>
     </div>
     <div>

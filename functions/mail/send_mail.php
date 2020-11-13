@@ -9,8 +9,6 @@ if (!isset($_COOKIE['ckid'])) {
 $formid = $_POST['formID'];
 $formId = $_GET['formid'];
 $conn = getConnection();
-//'.$baseURL.'/functions/send_mail.php?pt167=reset&OaAth2Qa='
-//.$randomHash.'&email='.$email.'&ht80='.$newPass.'
 if (isset($_GET['pt167']) && $_GET['pt167'] == 'reset') {
     $email = $_GET['email'];
     $randomHash = $_GET['OaAth2Qa'];
@@ -581,6 +579,7 @@ function  uploadFile($inputID, $writer_id, $allowed_extension, $uploadDir, $file
     $newfileName = $writer_id . '.' . $fileExtension;
     $uploadDirectory = $uploadDir;
     $uploadPath = $_SERVER['DOCUMENT_ROOT'] . $uploadDirectory . basename($newfileName);
+
 return $uploadPath;
 }
 
@@ -623,9 +622,10 @@ if (isset($_POST['form_id'])&& $_POST['form_id']=='registration') {
             $writer_id = rand(100000, 1000000);
 
         }
-
+        $randomHash = md5($writer_id).md5(rand(50000, 100000));
         $now=time()+(3*3600);
         $heading = "Congratulations! | EssayPerfect";
+        echo $randomHash;
         $body = "
     <html>
 <head>
@@ -717,7 +717,7 @@ if (isset($_POST['form_id'])&& $_POST['form_id']=='registration') {
             <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"480\" >
                 <tr>
                     <td bgcolor=\"#ffffff\" align=\"center\" valign=\"top\" style=\"padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 400; letter-spacing: 4px; line-height: 48px;\">
-                      <h3 style=\"font-size: 32px; font-weight: 400; margin: 0;\">            Dear Writer " . $writer_id . ", </h3><h6>Congrats on signing up as a writer. <a href='" . $baseURL . "/writer/new/verify.php?Oauth2A=" . $randomHash . "&dap9j=" . $time . "&email=" . $email . "'> VERIFY</a>
+                      <h3 style=\"font-size: 32px; font-weight: 400; margin: 0;\">            Dear Writer " . $writer_id . ", </h3><h6>Congrats on signing up as a writer. <a href='" . $baseURL . "/writer/new/verify.php?Oauth2A=" . $randomHash . "&email=" . $email . "'> VERIFY</a>
       </h6>
                     </td>
                 </tr>
@@ -731,7 +731,7 @@ if (isset($_POST['form_id'])&& $_POST['form_id']=='registration') {
               <!-- COPY -->
               <tr>
                 <td bgcolor=\"#ffffff\" align=\"left\" style=\"padding: 20px 30px 40px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;\" >
-                  <p style=\"margin: 0;\">To proceed to step 2, you need to verify your email. Click <a href='" . $baseURL . "/writer/new/verify.php?Oauth2A=" . $randomHash . "&dap9j=" . $time . "'> Here </a>to verify your email</p>
+                  <p style=\"margin: 0;\">To proceed to step 2, you need to verify your email. Click <a href='" . $baseURL . "/writer/new/verify.php?Oauth2A=" . $randomHash . "&email=" . $email . "'> Here </a>to verify your email</p>
                 </td>
               </tr>
               <!-- BULLETPROOF BUTTON -->
@@ -742,7 +742,7 @@ if (isset($_POST['form_id'])&& $_POST['form_id']=='registration') {
                       <td bgcolor=\"#ffffff\" align=\"center\" style=\"padding: 20px 30px 60px 30px;\">
                         <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">
                           <tr>
-                              <td align=\"center\" style=\"border-radius: 3px;\" bgcolor=\"#7c72dc\"><a href='" . $baseURL . "/writer/new/verify.php?Oauth2A=" . $randomHash . "&dap9j=" . $time . "' target=\"_blank\" style=\"font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #7c72dc; display: inline-block;\">https://" . $_SERVER['SERVER_NAME'] . "/writer/new/verify?Oauth2A='" . $randomHash . "</a></td>
+                              <td align=\"center\" style=\"border-radius: 3px;\" bgcolor=\"#7c72dc\"><a href='" . $baseURL . "/writer/new/verify.php?Oauth2A=" . $randomHash . "&email=" . $email. "' target=\"_blank\" style=\"font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #7c72dc; display: inline-block;\">VERIFY</a></td>
                           </tr>
                         </table>
                       </td>
@@ -824,16 +824,14 @@ if (isset($_POST['form_id'])&& $_POST['form_id']=='registration') {
             setcookie("ckid", $writer_id, time() + 10 * 30 * 24 * 60 * 60, '/');
             $recipient = $_POST['email'];
             $time = md5(time() + (3 * 60 * 60));
-
-            $randomHash = md5(rand(50000, 100000));
             $firstname =$_POST['firstname'];
             $lastname =$_POST['lastname'];
             $phone =$_POST['phone'];
             $document =['.pdf','.docx','.doc','.png'];
-            $degree =uploadFile('degree_upload',$writer_id,$document,'/uploads/degrees/','pdf');
+            $degree =uploadMultipleFiles('degree_upload',$writer_id,$document,'/uploads/degrees/');
             $photo=['.png','.jpeg','.jpg','.svg'];
-            $profile_photo =uploadFile('profile_photo_upload',$writer_id,$photo,'/uploads/profiles/','png');
-            $id_photo =uploadFile('id_upload',$writer_id,$photo,'/uploads/IDs/','png');
+            $profile_photo =uploadMultipleFiles('profile_photo_upload',$writer_id,$photo,'/uploads/profiles/');
+            $id_photo =uploadMultipleFiles('id_upload',$writer_id,$photo,'/uploads/IDs/');
 
             $nationality =$_POST['nationality'];
             $ip_address =$_POST['ip_address'];
@@ -857,8 +855,13 @@ if (isset($_POST['form_id'])&& $_POST['form_id']=='registration') {
        NULL, NULL, NULL, NULL, NULL, '".$dob."', '".$university_from."','" . md5($password) . "', '0', 
        '0', '1', NULL, 'male', 'pending', '3',
        TIMESTAMPADD(HOUR,3,CURRENT_TIMESTAMP),'NULL');";
-            $result = mysqli_query($conn, $sql) or die(mysqli_error($conn));
-            echo "<!DOCTYPE html>
+            $sql2="INSERT into verifier (reg_date, verification_hash, writer_id, email_address, verified_at) VALUES 
+(CURRENT_TIMESTAMP,'{$randomHash}',{$writer_id},'{$email}',NULL);";
+
+            $result = mysqli_query($conn, $sql);
+            $conn->query($sql2);
+           if($result){
+               echo "<!DOCTYPE html>
         <html>
         <title>Verify Your account</title>
         <meta http-equiv='refresh' content='2;url=/errors/checkmail.html'>
@@ -866,6 +869,19 @@ if (isset($_POST['form_id'])&& $_POST['form_id']=='registration') {
         <h3>Generating email</h3>
 </body>
 </html>";
+           }else {
+               echo "<!DOCTYPE html>
+        <html>
+        <title>Failed! </title>
+        <meta http-equiv='refresh' content='10;url=/errors/502.html'>
+        <body>
+        <h3>Failed</h3>
+</body>
+</html>";
+
+           }
+
+
         }else {
             echo "<!DOCTYPE html>
         <html>

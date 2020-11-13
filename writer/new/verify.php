@@ -1,15 +1,19 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/writer/new/pages/authentication.php";
+include $_SERVER['DOCUMENT_ROOT']."/functions/newtemplate.php";
 error_reporting(5);
 $randomHash=$_GET['Oauth2A'];
 $email=$_GET['email'];
+if (empty($randomHash) or empty($email)){
+    retry_verification();
+}
+
 $verification=" SELECT TIMESTAMPDIFF(HOUR,CURRENT_TIMESTAMP,writer.reg_date)as expire,v.writer_id as writerid 
  FROM writers as writer 
      inner join verifier as v 
  on v.writer_id=writer.writer_id 
- WHERE v.email_address={$email} and v.verification_hash='".$randomHash."';";
+ WHERE v.email_address='{$email}' and v.verification_hash='".$randomHash."';";
 $conn=getConnection();
-$result=$conn->query($verification) or  die($conn->error);
+$result=$conn->query($verification);
 if($result->num_rows>0){
 while ($row=$result->fetch_assoc()){
 
@@ -32,18 +36,9 @@ if(!$conn->query($verification)){
 $conn->query($verification);
 if(setSessions($email,$randomHash)){
 
-};
-
-    }
+} }
     else{
-        echo "<!DOCTYPE html>
-        <html>
-        <title>Verification Failed</title>
-        <meta http-equiv='refresh' content='1;url=/writer/new/?err=t6y78i9'>
-        <body>
-        <p></p>
-</body>
-</html>";
+        retry_verification();
 
     }
 }}
@@ -57,3 +52,4 @@ else{
 </body>
 </html>";
 }
+
