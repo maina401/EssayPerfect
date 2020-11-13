@@ -222,6 +222,23 @@ function getUserById($table,$id){
     }else{
         return false;
     }
+    function isVerified($id){
+        $id=mysqli_real_escape_string($id);
+        $db=getConnection();
+
+      $resultse=  $db->query("SELECT v.verified_at as verified, w.lname as lastname from writers as w inner join verifier v on w.writer_id = v.writer_id where w.writer_id={$id}");
+if(!$resultse==null){
+    while($reow=$resultse->fetch_assoc()){
+        if (!$reow['verified']==null) {
+
+            return true;
+        }
+        else{return  false;}
+    }
+
+}else{
+        return false;}
+    }
 	
 }
 

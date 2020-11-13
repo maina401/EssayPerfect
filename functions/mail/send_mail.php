@@ -566,11 +566,12 @@ a[x-apple-data-detectors] {
     }
 }
 
-function uploadFile($inputID, $writer_id, $allowed_extension, $uploadDir, $fileType)
+function  uploadFile($inputID, $writer_id, $allowed_extension, $uploadDir, $fileType)
 {
     $fileExtensions = $allowed_extension; // Get all the file extensions
 
     $fileName = $_FILES[$inputID]['name'];
+    echo $fileName;
     $fileSize = $_FILES[$inputID]['size'];
     $fileTmpName = $_FILES[$inputID]['tmp_name'];
 
@@ -580,28 +581,10 @@ function uploadFile($inputID, $writer_id, $allowed_extension, $uploadDir, $fileT
     $newfileName = $writer_id . '.' . $fileExtension;
     $uploadDirectory = $uploadDir;
     $uploadPath = $_SERVER['DOCUMENT_ROOT'] . $uploadDirectory . basename($newfileName);
-
-    if (!in_array($fileExtension, $fileExtensions)) {
-        echo '<meta http-equiv="refresh" content="0;url=' . $_SERVER['HTTP_REFERER'] . '?err=602&type=' . $fileType . '">';
-
-
-    } elseif ($fileSize > 8000000) {
-        echo '<meta http-equiv="refresh" content="0;url=' . $_SERVER['HTTP_REFERER'] . '?err=609">';
-
-    } else {
-        $didUpload = move_uploaded_file($fileTmpName, $uploadPath);
-        if ($didUpload) {
-            return $uploadPath;
-            echo 'Uploaded!!';
-
-        } else {
-            echo 'Not uploaded!!' . $_FILES['mypic']['error'];
-        }
-
-    }
+return $uploadPath;
 }
 
-if (isset($_POST['formid'])&& $_POST['formid']=='registration') {
+if (isset($_POST['form_id'])&& $_POST['form_id']=='registration') {
     $time = time() + 3 * 60 * 60;
 
     $email = $_POST['email'];
@@ -640,20 +623,10 @@ if (isset($_POST['formid'])&& $_POST['formid']=='registration') {
             $writer_id = rand(100000, 1000000);
 
         }
-//    while ($row=$result->fetch_assoc()){
-//        if ($writer_id==$row['writer_id'])
-//
-//    }
-        $recipient = $_POST['email'];
-        $time = md5(time() + (3 * 60 * 60));
 
-        $randomHash = md5(rand(50000, 100000));
-        $sql = "INSERT INTO `writers` (`writer_id`, `username`, `Fname`, `Lname`, `email_address`, `phone`, `nationality`, `ip_address`, `national_id`, `cert`, `profile_pic`, `verific_pic`,`subject1`, `subject2`, `subject3`, `format1`, `format2`, `format3`, `address`, `date of birth`, `univesity`, `pass`, `orders_completed`, `wallet`, `rating`, `payment_details`, `gender`, `acc_state`, `takes`,`reg_date`,`resume`) VALUES (" . $writer_id . ", '" . $writer_id . "', '', '', '" . $email . "', NULL, NULL, NULL, NULL, NULL, 'default.jpg', NULL, 'null', 'null', NULL, NULL, NULL, NULL, NULL, NULL, NULL,'" . $randomHash . "', '0', '0', '1', NULL, 'male', 'pending', '3',TIMESTAMPADD(HOUR,3,CURRENT_TIMESTAMP),'NULL');";
-        $result = mysqli_query($conn, $sql) or die(mysqli_error($conn));
-        if ($result) {
-            $now=time()+(3*3600);
-            $heading = "Congratulations! | EssayPerfect";
-            $body = "
+        $now=time()+(3*3600);
+        $heading = "Congratulations! | EssayPerfect";
+        $body = "
     <html>
 <head>
 
@@ -847,9 +820,45 @@ if (isset($_POST['formid'])&& $_POST['formid']=='registration') {
 </html>
 ";
 
-            if (sendQuickmail($_POST['email'], $heading, $body)) {
-                setcookie("ckid", $writer_id, time() + 10 * 30 * 24 * 60 * 60, '/');
-                echo "<!DOCTYPE html>
+        if (sendQuickmail($_POST['email'], $heading, $body)) {
+            setcookie("ckid", $writer_id, time() + 10 * 30 * 24 * 60 * 60, '/');
+            $recipient = $_POST['email'];
+            $time = md5(time() + (3 * 60 * 60));
+
+            $randomHash = md5(rand(50000, 100000));
+            $firstname =$_POST['firstname'];
+            $lastname =$_POST['lastname'];
+            $phone =$_POST['phone'];
+            $document =['.pdf','.docx','.doc','.png'];
+            $degree =uploadFile('degree_upload',$writer_id,$document,'/uploads/degrees/','pdf');
+            $photo=['.png','.jpeg','.jpg','.svg'];
+            $profile_photo =uploadFile('profile_photo_upload',$writer_id,$photo,'/uploads/profiles/','png');
+            $id_photo =uploadFile('id_upload',$writer_id,$photo,'/uploads/IDs/','png');
+
+            $nationality =$_POST['nationality'];
+            $ip_address =$_POST['ip_address'];
+
+            $dob =$_POST['dob'];
+
+            $university_from =$_POST['university'];
+            $password =$_POST['password'];
+            $sql = "INSERT INTO `writers` 
+    (`writer_id`, `username`, `Fname`, `Lname`, 
+     `email_address`, `phone`, `nationality`, 
+     `ip_address`, `national_id`, `cert`, 
+     `profile_pic`, `verific_pic`,`subject1`, 
+     `subject2`, `subject3`, `format1`, `format2`,
+     `format3`, `address`, `date of birth`, 
+     `univesity`, `pass`, `orders_completed`,
+     `wallet`, `rating`, `payment_details`, `gender`, `acc_state`, `takes`,`reg_date`,`resume`) 
+     VALUES (".$writer_id.", '" . $writer_id . "', '".$firstname."', '".$lastname."', '" . $email . "',
+      '".$phone."', '".$nationality."', '".$ip_address."', '".$id_photo."', '".$degree."', 
+      '".$profile_photo."', '".$id_photo."', 'null', 'null',
+       NULL, NULL, NULL, NULL, NULL, '".$dob."', '".$university_from."','" . md5($password) . "', '0', 
+       '0', '1', NULL, 'male', 'pending', '3',
+       TIMESTAMPADD(HOUR,3,CURRENT_TIMESTAMP),'NULL');";
+            $result = mysqli_query($conn, $sql) or die(mysqli_error($conn));
+            echo "<!DOCTYPE html>
         <html>
         <title>Verify Your account</title>
         <meta http-equiv='refresh' content='2;url=/errors/checkmail.html'>
@@ -857,9 +866,7 @@ if (isset($_POST['formid'])&& $_POST['formid']=='registration') {
         <h3>Generating email</h3>
 </body>
 </html>";
-            }
-
-        } else {
+        }else {
             echo "<!DOCTYPE html>
         <html>
         <title>Failed! </title>
@@ -870,6 +877,14 @@ if (isset($_POST['formid'])&& $_POST['formid']=='registration') {
 </html>";
 
         }
+
+
+//    while ($row=$result->fetch_assoc()){
+//        if ($writer_id==$row['writer_id'])
+//
+//    }
+
+
     }
 
 }

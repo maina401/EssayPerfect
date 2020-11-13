@@ -4,6 +4,7 @@ include 'template.php';
 
 function getStartingBlock($title, $description, $h1, $keywords)
 {
+   
     echo '<!doctype html>
 <html lang="en">
 <head>
@@ -149,6 +150,15 @@ function getStartingBlock($title, $description, $h1, $keywords)
 </header>
 
 <hr>';
+    if(isset($_COOKIE['ckid'])){
+        global $db;
+        $id=mysqli_real_escape_string($_COOKIE['ckid']);
+        if(getUserById('writers',$id).isVerified($id)){
+echo '<div class="alert alert-warning" role="alert">
+    <strong>You need to verify your email. Check your inbox or Spam folder</strong>
+</div>';
+        }
+    }
 
 }
 
@@ -246,6 +256,8 @@ var iti = window.intlTelInput(input, {
   geoIpLookup: function(callback) {
     $.get(\'https://ipinfo.io?token=014f73659b755f\', function() {}, "jsonp").always(function(resp) {
       var countryCode = (resp && resp.country) ? resp.country : "";
+    console.log(resp.ip);
+   $("#ip_address").val(resp.ip);
       callback(countryCode);
     });
   },
@@ -437,7 +449,10 @@ padding-top: 50px;
 }
 </style>
 <div class="hide" id="applyNow"></div>
-<form role="form" autocomplete="off" id="registration" action="/functions/mail/send_mail/send_mail.php" method="POST">
+<form role="form" autocomplete="off" id="registration" action="/functions/mail/send_mail.php" method="POST">
+<input type="hidden" class="hidden" value="registration" name="form_id">
+<input type="hidden" class="hidden" name="ip_address" id="ip_address">
+<input type="hidden" class="hidden" name="nationality" id="nationality">
 <div class="row setup-content align-self-center" id="step-4">
 <div class="jumbotron dusty-grass-gradient">
 	
